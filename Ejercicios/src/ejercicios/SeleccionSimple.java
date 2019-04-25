@@ -17,7 +17,7 @@ public class SeleccionSimple {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // Estructura condicional
+        // Declaración de variables e importación de paquete
         Scanner entrada = new Scanner(System.in);
         int calificacion = 0;
         int calificacion2 = 0;
