@@ -14,7 +14,7 @@ import paquetedos.Operacion;
  */
 public class SeleccionDoble {
     public static void main(String[] args) {
-        // Estructura condicional
+        // Declaración de variables e importación de paquete
         Scanner entrada = new Scanner(System.in);
         int calificacion = 0;
         int calificacion2 = 0;
@@ -23,7 +23,7 @@ public class SeleccionDoble {
         // Ingreso de datos
         System.out.println("Ingrese la primera calificación");
         calificacion = entrada.nextInt();
-        // Estructura condicional
+        // Estructura lógica condicional
         if(calificacion >= 85){
             System.out.printf("%s %d\n", miMensaje, calificacion);
         } else {
@@ -32,7 +32,7 @@ public class SeleccionDoble {
         // Ingreso de datos
         System.out.println("Ingrese la segunda calificación");
         calificacion2 =  entrada.nextInt();
-        // Estructura condicional
+        // Estructura lógica condicional
         if(calificacion2 >= 85){
             System.out.printf("%s %d", miMensaje, calificacion2);
         } else {
