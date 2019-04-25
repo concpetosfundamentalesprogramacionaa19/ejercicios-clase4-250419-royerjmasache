@@ -22,15 +22,19 @@ public class SeleccionAnidada {
         calificacion = entrada.nextInt();
         // Estructura lógica condicional anidada
         if(calificacion >= 90){
-            System.out.printf("%s (Excelente) con %d\n ", miMensaje, calificacion);
+            System.out.printf("%s (Excelente) con %d\n ",
+                    miMensaje, calificacion);
         } else {
             if(calificacion < 90 && calificacion >=80){
-                System.out.printf("%s (Muy buena) con %d\n", miMensaje, calificacion);
+                System.out.printf("%s (Muy buena) con %d\n",
+                        miMensaje, calificacion);
             } else {
                 if(calificacion < 80 && calificacion >= 50){
-                    System.out.printf("%s (Regular) con %d\n", miMensaje, calificacion);
+                    System.out.printf("%s (Regular) con %d\n",
+                            miMensaje, calificacion);
                 } else {
-                    System.out.printf("%s con %d\n", miMensaje2, calificacion);
+                    System.out.printf("%s con %d\n",
+                            miMensaje2, calificacion);
                 }
             }
         }

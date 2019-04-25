@@ -10,7 +10,7 @@ package paquetedos;
  * @author royerjmasache
  */
 public class Operacion {
-    // Se declaran variables estáticas y se presentan un mensajes
+    // Se declaran variables estáticas y se presenta un mensaje
     public static String mensaje = ("Usted está aprobado con: ");
     public static String mensaje2 = ("Usted está reprobado con: ");
    
